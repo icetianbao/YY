@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        div a {
+            display: inline-block;
+            height: 20px;
+            color: #bdc3c9;
+            text-decoration: none;
+            line-height: 15px;
+            padding: 15px;
+            font: size 20px;
+        }
+        
+        div .qifei {
+            padding-left: 190px;
+        }
+        
+        .beijing a:hover {
+            color: #ffffde;
+        }
+        
+        .beijing {
+            background-image: url(images/DorsetHeather.jpg);
+            width: 1920px;
+            height: 950px;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+        
+        .beijing em {
+            font-style: normal;
+            color: #bec3c9;
+        }
+        
+        .right a {
+            float: left;
+        }
+        
+        .right {
+            float: right;
+            padding-right: 80px;
+        }
+        
+        .EC {
+            position: relative;
+            right: 1300px;
+            top: 80px;
+            width: 100px;
+            height: 70px;
+        }
+        
+        .box {
+            float: left;
+            width: 30px;
+            height: 30px;
+            background-image: url(images/spirit.png);
+            background-position: -37px -315px;
+            margin-top: 10px;
+        }
+        
+        .box2 {
+            float: right;
+            width: 48px;
+            height: 39px;
+            background-image: url(images/spirit.png);
+            background-position: -335px -294px;
+            margin-left: 30px;
+        }
+        
+        .box4 {
+            position: absolute;
+            left: 0;
+            top: 50px;
+            width: 261px;
+            height: 111px;
+            background-image: url(images/spirit.png);
+        }
+        
+        .search {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 667px;
+            height: 55px;
+            margin: 90px;
+            margin-left: 270px;
+        }
+        
+        .search input {
+            float: left;
+            width: 607px;
+            height: 52px;
+            font-size: 30px;
+            font-weight: 400;
+            text-indent: 0.1em;
+        }
+        
+        .box5 .box5content {
+            display: none;
+            position: absolute;
+            background-color: #000000;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+        }
+        
+        .box5:hover .box5content {
+            display: block;
+        }
+        
+        .search input:focus {
+            border-style: solid;
+            border-color: #03a9f4;
+            box-shadow: 0 0 15px #03a9f4;
+        }
+        
+        .search button {
+            float: left;
+            width: 54px;
+            height: 55px;
+            border: none;
+            color: #ffffff
+        }
+        
+        .box9 {
+            width: 55px;
+            height: 55px;
+            background-image: url(images/spirit.png);
+            background-position: -341px -130px;
+        }
+        
+        .guomei button {
+            display: inline-block;
+            width: 180px;
+            height: 40px;
+        }
+        
+        .guomei {
+            position: absolute;
+            left: 450px;
+            top: 50px;
+            background-color: red;
+        }
+        
+        .b1 {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        
+        .b2 {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .bigbox {
+            position: absolute;
+            right: 70px;
+            top: 900px;
+        }
+        
+        .box3 {
+            width: 32px;
+            height: 30px;
+            background-image: url(images/spirit.png);
+            background-position: -191px -137px;
+        }
+        
+        .box7 {
+            width: 32px;
+            height: 30px;
+            background-image: url(images/spirit.png);
+            background-position: -273px -137px;
+        }
+        
+        .box5 {
+            width: 35px;
+            height: 35px;
+            background-image: url(images/spirit.png);
+            background-position: -37px -378px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .box6 {
+            width: 33px;
+            height: 33px;
+            background-image: url(images/spirit.png);
+            background-position: -188px -217px;
+        }
+        
+        .box3,
+        .box7,
+        .box5,
+        .box6 {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="beijing">
+        <a class="qifei" href="https://cn.bing.com/images/trending?form=Z9LH">images</a>
+        <a href="https://cn.bing.com/videos/search?q=Most+Watched+Videos+This+Week&FORM=VLPCNI&ensearch=1">Videos</a>
+        <a href="https://www.msn.com/en-us/?ocid=BHEA000">Academics</a>
+        <a href="https://www.msn.com/en-us/?ocid=BHEA000">Dies</a>
+        <a href="https://www.msn.com/en-us/?ocid=BHEA000">Maps</a>
+        <em>|</em>
+        <a href="https://www.office.com/?WT.mc_id=O16_BingHP&auth=1">Office</a>
+        <a href="https://outlook.live.com/mail/0/?WT.mc_id=O16_BingHP%3fmkt%3den-US&JitExp=1&url=%2fowa%2f0%2f%3fWT.mc_id%253dO16_BingHP%25253fmkt%25253den-US">Outlook.com</a>
+        <div class="right"> <a href="#">Sign in</a>
+            <div class="box">
+                <a href="#"></a>
+            </div>
+            <div class="box2">
+                <a href="#"></a>
+            </div>
+
+            <div class="EC">
+                <div class="guomei">
+                    <button class="b1">国内版</button>
+                    <button class="b2">国际版</button>
+                </div>
+                <div class="box4"></div>
+                <div class="search">
+                    <input type="text">
+                    <button><div class="box9"></div></button>
+                </div>
+            </div>
+            <div class="bigbox">
+                <div class="box5">
+                    <div class="box5content">
+                        <p>Settings</p>
+                        <p>SafeSearch</p>
+                        <p>Search history</p>
+                        <p>Privacy</p>
+                        <p>Feedback</p>
+                        <p>Customize your homepage</p>
+                    </div>
+                </div>
+                <div class="box3">
+                    <a href="#"></a>
+                </div>
+                <div class="box7">
+                    <a href="#"></a>
+                </div>
+
+                <div class="box6">
+                    <a href="#"></a>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+</body>
+
+</html>
